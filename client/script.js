@@ -80,7 +80,7 @@ const handleSubmit = async (e) => {
 
     loader(messageDiv);
 
-    const response = await fetch('https://codegpt-uvyj.onrender.com/', {
+    const response = await fetch('https://localhost:5000', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
